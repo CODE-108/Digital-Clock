@@ -1,0 +1,27 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+     background: linear-gradient(45deg, #88a8cd, #6a4988);
+    color: rgb(212, 212, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container{
+    text-align: center;
+    background-color: rgba(225, 225, 225, 0.01);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(232, 212, 212, 0.784);
+}
+#time-display{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+#date-display{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
